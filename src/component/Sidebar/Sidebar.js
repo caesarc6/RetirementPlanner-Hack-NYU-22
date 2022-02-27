@@ -13,7 +13,6 @@ align-items: center;
 top: 0;
 left: 0;
 transition: 0.3s ease-in-out;
-visibilty: ${({ isOpen }) => (isOpen ? '100%' : '0') } !important;
 opacity: ${({ isOpen }) => (isOpen ? '100%' : '0') };
 top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
 top: 0;
@@ -56,7 +55,7 @@ cursor: pointer;
 `;
 
 export const SidebarMenu = styled.ul`
-visibility: ${({ isOpen }) => (isOpen ? 'visible' : 'auto') };// not working properly
+visibility: ${({ isOpen }) => (isOpen ? 'visible' : 'hidden') };
 display: grid;
 grid-template-columns: 1fr;
 grid-template-rows: repeat(6,80);
