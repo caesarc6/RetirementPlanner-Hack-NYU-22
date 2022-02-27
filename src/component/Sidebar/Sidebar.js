@@ -16,6 +16,12 @@ transition: 0.3s ease-in-out;
 opacity: ${({ isOpen }) => (isOpen ? '100%' : '0') };
 top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
 top: 0;
+
+@media screen and (min-width: 768px) {
+    transition: 0.2s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    top: -50000%;
 `;
 
 export const CloseIcon = styled(FaTimes)`
@@ -30,6 +36,9 @@ background: transparent;
 font-size: 2rem;
 cursor: pointer;
 outline: none;
+
+@media screen and (min-width: 768px) {
+    right:-30%;
 `;
 
 export const SidebarWrapper = styled.div`
