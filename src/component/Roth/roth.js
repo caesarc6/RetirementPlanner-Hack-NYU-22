@@ -1,38 +1,6 @@
 import styled from 'styled-components';
 
-export const StartContainer = styled.div`
-background: #0c0c0c;
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 0 30;
-height: 800px;
-position: relative;
-z-index: 1;
-height: 99vh;
-`;
-
-export const StartBg = styled.div`
-position: absolute;
-top: 0;
-right: 0;
-bottom: 0;
-left: 0;
-width: 100%;
-height: 100%;
-overflow: hidden;
-z-index: -1;
-`;
-
-export const VideoBg = styled.video`
-width: 100%;
-height: 100%;
--o-object-fit: cover;
-object-fit: cover;
-background: #232a34;
-`;
-
-export const StartContent = styled.div`
+export const RothContent = styled.div`
 z-index: 3;
 max-width: 1200px;
 position: absolute;
@@ -42,7 +10,20 @@ flex-direction: column;
 align-items: center;
 `;
 
-export const StartH1 = styled.h1`
+export const RothContainer = styled.div`
+background: #000000;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0 30;
+height: 800px;
+position: relative;
+z-index: 1;
+overflow: hidden;
+`;
+
+
+export const RothH1 = styled.h1`
 color: #fff;
 font-size: 48px;
 text-align: center;
@@ -58,7 +39,7 @@ z-index: 3;
 }
 `;
 
-export const StartP = styled.p`
+export const RothP = styled.p`
 margin-top: 24px;
 color: #fff;
 font-size: 24px;

@@ -1,9 +1,10 @@
 import React, {useState} from 'react';
-import InfoSection from '../component/InfoSection';
-import { homeObjOne } from '../component/InfoSection/data';
 import Navbar from "../component/Navbar";
 import Sidebar from "../component/Sidebar";
 import StartSection from '../component/startSection';
+import Annuities from '../component/Annuities'
+import Roth from '../component/Roth';
+import Contact from '../component/Contact';
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -17,7 +18,9 @@ const Home = () => {
         <Sidebar isOpen={isOpen} toggle={toggle} />
         <Navbar toggle={toggle}/>
         <StartSection />
-        {/* <InfoSection {...homeObjOne}/> */}
+        <Annuities />
+        <Roth />
+        <Contact />
         </>
     );
 };
