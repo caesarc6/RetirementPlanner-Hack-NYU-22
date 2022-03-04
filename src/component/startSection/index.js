@@ -1,19 +1,19 @@
 import React from 'react';
 import Video from '../../videos/video.mp4';
-import { StartContainer, StartBg, VideoBg, StartP, StartH1 } from './startSection'; 
+import { StartContainer, StartContent, StartBg, VideoBg, StartP, StartH1 } from './startSection'; 
 
 
 const StartSection = () => {
    
     return(  
     <StartContainer>
-      <StartBg> 
+      <StartBg autoPlay loop muted playsinline >  
           <VideoBg autoPlay loop muted src={Video} type='video/mp4'/>
       </StartBg>
-      <startContent>
+      <StartContent>
           <StartH1>Retirement Made Easy</StartH1>
           <StartP>Scroll Down To Learn More Info!</StartP>
-      </startContent>
+      </StartContent>
     </StartContainer>
     )
 }

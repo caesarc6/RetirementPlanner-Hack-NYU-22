@@ -4,7 +4,7 @@ import {Link as LinkS} from 'react-scroll';
 
 export const SidebarContainer = styled.aside`
 position: fixed;
-z-index: 999;
+z-index: ${({isOpen}) => isOpen ? '999' : '0'};
 width: 100%;
 height: 100%;
 background: #0d0d0d;
@@ -69,6 +69,7 @@ display: grid;
 grid-template-columns: 1fr;
 grid-template-rows: repeat(6,80);
 text-align: center;
+padding: 0 !important; //override default padding
 
 @media screen and (max-width: 480px)
    grid-template-rows: repeat(6,60);

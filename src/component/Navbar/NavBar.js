@@ -25,7 +25,7 @@ justify-content: space-between;
 height: 80px;
 z-index: 1;
 width: 100%;
-padding: 0 24px;
+margin: 0px 30px;
 max-width: 1100px;
 `;
 
@@ -36,7 +36,6 @@ cursor: pointer;
 font-size: 1.5rem;
 display: flex;
 align-items: center;
-margin-left 24px;
 font-weight: bold;
 text-decoration: none;
 `;

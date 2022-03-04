@@ -5,11 +5,9 @@ background: #0c0c0c;
 display: flex;
 justify-content: center;
 align-items: center;
-padding: 0 30;
-height: 800px;
 position: relative;
 z-index: 1;
-height: 99vh;
+height: 90vh;
 `;
 
 export const StartBg = styled.div`
@@ -30,6 +28,7 @@ height: 100%;
 -o-object-fit: cover;
 object-fit: cover;
 background: #232a34;
+filter: brightness(0.86);
 `;
 
 export const StartContent = styled.div`
