@@ -6,9 +6,9 @@ import { StartContainer, StartContent, StartBg, VideoBg, StartP, StartH1 } from 
 const StartSection = () => {
    
     return(  
-    <StartContainer>
-      <StartBg autoPlay loop muted playsinline >  
-          <VideoBg autoPlay loop muted src={Video} type='video/mp4'/>
+    <StartContainer id="about">
+      <StartBg autoPlay loop muted defaultMuted playsinline >  
+          <VideoBg autoPlay muted loop defaultMuted src={Video} type='video/mp4'/>
       </StartBg>
       <StartContent>
           <StartH1>Retirement Made Easy</StartH1>

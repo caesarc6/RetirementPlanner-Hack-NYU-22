@@ -25,7 +25,7 @@ justify-content: space-between;
 height: 80px;
 z-index: 1;
 width: 100%;
-margin: 0px 30px;
+margin: 0px 20px;
 max-width: 1100px;
 `;
 
@@ -44,8 +44,8 @@ export const MobileIcon = styled.div`
 display: none;
 @media screen and (max-width: 768px){
     display: block;
-    position: absolute;
-    top: 0;
+    position: absolute;    
+    top:3px;
     right: 0;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;

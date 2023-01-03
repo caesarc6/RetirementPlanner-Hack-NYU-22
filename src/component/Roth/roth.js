@@ -1,8 +1,10 @@
 import styled from 'styled-components';
 
 export const RothContent = styled.div`
+overflow-wrap: anywhere;
 z-index: 3;
 max-width: 1200px;
+margin: 0px 30px;
 position: absolute;
 display: flex;
 flex-direction: column;

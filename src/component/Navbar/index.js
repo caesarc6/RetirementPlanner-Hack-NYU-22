@@ -14,16 +14,16 @@ const Navbar = ({toggle}) => {
                 </MobileIcon>
                 <NavMenu>
                     <NavItem>
-                        <NavLinks to="About">About</NavLinks>
+                        <NavLinks to="about" spy={true} smooth={true} duration={500} >About</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="Annuities">Annuities</NavLinks>
+                        <NavLinks to="annuities" spy={true} smooth={true} duration={500} >Annuities</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="Roth">Roth</NavLinks>
+                        <NavLinks to="roth" spy={true} smooth={true} duration={500} >Roth</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="Contact">Contact Us!</NavLinks>
+                        <NavLinks to="contact" spy={true} smooth={true} duration={500} >Contact Us!</NavLinks>
                     </NavItem>
                 </NavMenu>
             </NavbarContainer>
