@@ -4,7 +4,7 @@ export const AnnuityContent = styled.div`
 z-index: 3;
 max-width: 1200px;
 position: absolute;
-padding: 8x 24px;
+padding: 8px 24px;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -15,7 +15,7 @@ background: #fff;
 display: flex;
 justify-content: center;
 align-items: center;
-padding: 0 30;
+margin: 0px 30px;
 height: 800px;
 position: relative;
 z-index: 1;

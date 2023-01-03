@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link, animateScroll as scroll } from "react-scroll";
 import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarLink, SidebarMenu} from './Sidebar';
 
 const Sidebar = ({isOpen, toggle}) =>{
@@ -9,16 +10,16 @@ const Sidebar = ({isOpen, toggle}) =>{
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu isOpen={isOpen}>
-                    <SidebarLink to='About' /*onClick={toggle}*/>
+                    <SidebarLink to='about' to="about" spy={true} smooth={true} duration={500} onClick={toggle}>
                         About
-                    </SidebarLink>
-                    <SidebarLink to='Annuities' /*onClick={toggle}*/>
+                     </SidebarLink>
+                    <SidebarLink to='annuities' to="annuities" spy={true} smooth={true} duration={500}  onClick={toggle}>
                         Annuities
                     </SidebarLink>
-                    <SidebarLink to='Roth' /*onClick={toggle}*/>
+                    <SidebarLink to='roth' to="roth" spy={true} smooth={true} duration={500}  onClick={toggle}>
                         Roth
                     </SidebarLink>
-                    <SidebarLink to='Contact' /*onClick={toggle}*/>
+                    <SidebarLink to='contact' to="contact" spy={true} smooth={true} duration={500}  onClick={toggle}>
                         Contact
                     </SidebarLink>
                 </SidebarMenu>

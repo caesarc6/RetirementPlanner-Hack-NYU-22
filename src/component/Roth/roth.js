@@ -1,10 +1,11 @@
 import styled from 'styled-components';
 
 export const RothContent = styled.div`
+overflow-wrap: anywhere;
 z-index: 3;
 max-width: 1200px;
+margin: 0px 30px;
 position: absolute;
-padding: 8x 24px;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -15,7 +16,6 @@ background: #000000;
 display: flex;
 justify-content: center;
 align-items: center;
-padding: 0 30;
 height: 800px;
 position: relative;
 z-index: 1;
@@ -40,7 +40,7 @@ z-index: 3;
 `;
 
 export const RothP = styled.p`
-margin-top: 24px;
+margin: 0px 30px;
 color: #fff;
 font-size: 24px;
 text-align: center;

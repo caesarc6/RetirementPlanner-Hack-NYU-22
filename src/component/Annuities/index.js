@@ -4,7 +4,7 @@ import { AnnuityContent, AnnuityContainer,AnnuityH1, AnnuityP} from './annuity';
 const Annuities = () => {
    
     return(  
-        <AnnuityContainer>
+        <AnnuityContainer id="annuities">
             <AnnuityContent>
                 <AnnuityH1>Annuities</AnnuityH1>
                 <AnnuityP> Annuities are contractual payment(s) obligations between you and an insurance company for the purpose to save your money and incrementally withdraw it during retirement, effectively giving you a fixed income indefinitely. Payouts are then given by the insurance company monthly. 
